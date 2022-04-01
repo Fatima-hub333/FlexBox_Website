@@ -1,0 +1,23 @@
+{
+  "name": "flexbox_website",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatima-hub333/FlexBox_Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatima-hub333/FlexBox_Website/issues"
+  },
+  "homepage": "https://github.com/Fatima-hub333/FlexBox_Website#readme",
+  "devDependencies": {
+    "hint": "^6.1.11"
+  }
+}
