@@ -1,10 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# FlexBox Website 
 
-# Portfolio
-
-> FlexBox Website 
-
-
+> 
 This repository is for setting up my first FlexBox Website as a software developer.. Built with Html, CSS & FlexBox.
 
 ## Built With
