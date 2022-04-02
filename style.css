@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
-  /* background-image: url("images/bg2.jpg");
-  background-color: rgba(0, 0, 0, 0.5); */
-  background-image : linear-gradient(rgba (0, 0, 0, 0.5), url('images/bg2.jpg'));
+.header-bg {
+  background-image: url("images/bg2.jpg");
+  width: 100%;
+  height:700px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18,7 +18,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-top: 45px;
 }
 
 li {
@@ -109,7 +108,7 @@ h1 {
   border-bottom: solid 2px #fff;
 }
 
-p {
+.header-para {
   color: #fff;
   margin: auto;
   font-family: sans-serif;
@@ -127,4 +126,73 @@ button {
   font-family: sans-serif;
   border-radius: 5px;
   border: none;
+}
+
+/* Main content css start */
+.content-1 {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: bolder;
+  border-bottom: black solid 1px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.content-1_heading p{
+  color: black;
+}
+
+.services {
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+
+.green-item {
+  margin-top: 30px;
+}
+
+h4,
+p {
+  color: #fff;
+  padding: 10px;
+}
+
+hr {
+  width: 100px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.green {
+  background-color: #1abc9c;
+}
+
+.orange {
+  background-color: #e67e22;
+}
+
+.blue {
+  background-color: #3498db;
+}
+
+.light-green {
+  background-color: #2ecc71;
+}
+
+.green,
+.orange,
+.blue,
+.light-green {
+  width: 17%;
+  height: 300px;
+  text-align: center;
 }
