@@ -5,7 +5,9 @@
 }
 
 body {
-  background-image: url("images/bg2.jpg");
+  /* background-image: url("images/bg2.jpg");
+  background-color: rgba(0, 0, 0, 0.5); */
+  background-image : linear-gradient(rgba (0, 0, 0, 0.5), url('images/bg2.jpg'));
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -47,7 +49,7 @@ nav {
 }
 
 .logo img {
-  width: 90%;
+  width: 100%;
 }
 
 .logo-title {
@@ -88,4 +90,41 @@ align-items: center;
   color: #444444;
   line-height: 100px;
   font-family: sans-serif;
+}
+
+.after-header-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  row-gap: 25px;
+}
+
+h1 {
+  color: #fff;
+  margin: auto;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 10px;;
+  border-bottom: solid 2px #fff;
+}
+
+p {
+  color: #fff;
+  margin: auto;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  background-color: #ec523f;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border: none;
 }
