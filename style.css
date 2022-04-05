@@ -149,6 +149,8 @@ h2 {
 }
 .content-1_heading p{
   color: black;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .services {
@@ -216,3 +218,189 @@ hr {
 }
 
 /* our Team section */
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.team-members img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.team-members {
+  display: flex;
+  column-gap: 30px;
+}
+
+/* Design Skills Section */
+.content-2 {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  margin-bottom: 5%;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-weight: normal;
+  border-bottom: black solid 1px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: black;
+}
+
+.content-2_heading p{
+  color: black;
+  font-style: italic;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.paragraphs {
+  width: 60%;
+}
+
+.paragraphs p {
+  color: black;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.progressbars {
+  width: 25%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.photoshop,
+.html,
+.development,
+.marketing {
+  background-color: #efefef;
+  height: 30px;
+}
+
+.photoshop span {
+  background-color: #ec523f;
+  height: 30px;
+  width: 312px;
+  display: inline-block;
+  padding: 8px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.html span {
+  background-color: #ec523f;
+  height: 30px;
+  width: 280px;
+  display: inline-block;
+  padding: 8px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.development span {
+  background-color: #ec523f;
+  height: 30px;
+  width: 240px;
+  display: inline-block;
+  padding: 8px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.marketing span {
+  background-color: #ec523f;
+  height: 30px;
+  width: 280px;
+  display: inline-block;
+  padding: 8px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Contact_US section */
+.form-div {
+  width: 80%;
+  height: 350px;
+  margin: auto;
+  border: #efefef solid 10px;
+}
+
+.contact-section {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  column-gap: 35px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 440px;
+  height: 45px;
+}
+
+textarea {
+  height: 100px;
+  width: 440px;
+}
+
+::placeholder {
+  padding: 10px;
+}
+
+.form-button {
+  width: 440px;
+  height: 40px;
+  background-color: #ec523f;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: none;
+  margin-top: 15px;
+}
+
+.paragraphs-1 {
+  width: 50%;
+}
+
+.paragraphs-1 p {
+  color: black;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.p-2,
+.p-3,
+.p-4 {
+  margin-top: 20px;
+}
